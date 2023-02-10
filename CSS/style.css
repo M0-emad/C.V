@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.parent{
+    height: 100%;
+}
+.b1{
+    background-color: rgba(63, 63, 63, 0.359);
+    width: 100%;
+    height: 8%;
+    font-size: 30px;
+}
+.name{
+    color: rgb(24, 101, 255);
+    padding-top: 5px;
+}
+.b2,.b3,.b4,.b5{
+    font-size: 18px;
+}
+.cont{
+    background-color: rgba(63, 63, 63, 0.359);
+    box-shadow: inset 0px 0px 10px 10px rgb(212, 212, 212);
+    width: 150px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.lang{
+    background-color: rgba(63, 63, 63, 0.359);
+    box-shadow: inset 0px 0px 10px 10px rgb(212, 212, 212);
+    width: 180px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.skil{
+    background-color: rgba(63, 63, 63, 0.359);
+    box-shadow: inset 0px 0px 10px 10px rgb(212, 212, 212);
+    width: 220px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.soft{
+    background-color: rgba(63, 63, 63, 0.359);
+    box-shadow: inset 0px 0px 10px 10px rgb(212, 212, 212);
+    width: 160px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.title1,.title4,.title-1{
+    color: rgba(16, 83, 215, 0.759);
+    font-size: 22px;
+}
+.b11{
+    font-size: 17px;
+    color: black;
+}
+.hr1{
+    background-color: rgb(0, 40, 119);
+    width: 200px;
+    height: 4px;
+}
+.hr0{
+    width: 100%;
+    height: 1.5px;
+    background-color: gray;
+
+}
+.hr2{
+    background-color: rgb(0, 40, 119);
+    width: 150px;
+    height: 4px;
+}
+.hr3{
+    background-color: rgb(0, 40, 119);
+    width: 110px;
+    height: 4px;
+}
+.b6,.b7,.b8{
+    font-size: 18px;
+}
+.nt2,.cis2,.w2,.w4{
+    font-size: 20px;
+    color: rgba(16, 83, 215, 0.759);
+}
+.mis a,.nt1 a,.w1 a,.w3 a,.cis1 a{color: #000;}
+@media only screen and (min-width:1440px){
+    .b6{top: -630px ; left: 350px ;}
+    .b7{top: -630px ; left: 400px ;}
+    .b8{top: -170px ; left: -666px ;}
+    .cisco{margin: -95px 0px 0px 280px ;}
+    .web{margin: 10px 0px 0px 500px ; margin-top: -115px;}
+    .w1{width: 200px;}
+    .free{margin: -95px 0px 0px 700px;}
+    .update{margin: -70px 0px 0px 957px ; width: 200px ;}
+}
+@media only screen and (width:1440px){
+    .b8{left: -610px;}
+    .cisco{width: 200px;}
+    .web{width: 300px;}
+}
+@media only screen and (max-width:460px){
+    .b1{height: 100px;}
+    .update{text-align: center; font: 1.2em sans-serif;}
+    .nt1,.cis1,.w1,.w3{font-size: 18px;}
+    .b6{top: 30px;}
+    .b7{top: 50px;}
+    .b8{top: 70px;}
+}
